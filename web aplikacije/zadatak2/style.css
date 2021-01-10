@@ -10,17 +10,17 @@ header {
 .hero-image {
 	background-image: url("img/banner-nfy.jpg");
 	background-position: center;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
-	position: center;
-	height: 300px;
+	position: relative;
+	height: 500px;
 }
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-     background-color: #0000;
+	background-color: #333;
 }
 li {
 	float: left;
@@ -29,9 +29,9 @@ li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 10px 20px;
+	padding: 14px 16px;
 	text-decoration: none;
 }
 li a:hover {
-	background-color: #000000;
+	background-color: #111;
 }
