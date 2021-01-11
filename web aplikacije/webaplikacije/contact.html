@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		
+		<title>Kontaktiraj nas:</title>
+	</head>
+<body>
+	<header>
+		<div class="hero-image" style="height: 200px;"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Naslovnica</a></li>
+			  <li><a href="igraci.html">Igraci</a></li>
+			  <li><a href="onama.html">O nama</a></li>
+			  <li><a href="galerija.html">Galerija</a></li>
+			  <li><a href="contact.html">Kontaktiraj nas</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Kontaktiraj nas:</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11188.223651631955!2d15.5473042!3d45.4888188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6338df2231128e6!2sWARP-OMEGA!5e0!3m2!1shr!2shr!4v1610390137045!5m2!1shr!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Ime *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime.." required>
+
+				<label for="lname">Prezime *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime.." required>
+				
+				<label for="lname">E-mail adresa *</label>
+				<input type="email" id="email" name="email" placeholder="Vaš email.." required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option value="">Molim odaberite državu:</option>
+				  <option value="BE">Srbija</option>
+				  <option value="HR" selected>Hrvatska</option>
+				  <option value="LU">Bosnia and Hercegovina</option>
+				  <option value="HU">Mađarska</option>
+				</select>
+
+				<label for="subject">Upit:</label>
+				<textarea id="subject" name="subject" placeholder="Vaš upit..." style="height:200px"></textarea>
+
+				<input type="submit" value="Pošalji">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; Filip Benakovic <a href="https://github.com/benastena/Web-Aplikacije"><img src="img/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
